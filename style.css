@@ -1,0 +1,73 @@
+html {
+  -webkit-text-size-adjust: none;
+}
+body {
+  color: #000022;
+  background-image: url('rolodex_background.jpg');
+  background-repeat: no-repeat;
+}
+@font-face {
+  font-family: 'Chalkboard';
+  src: url('chalkboard.ttf');
+}
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('comic.ttf');
+}
+@font-face {
+  font-family: 'Wingdings';
+  src: url('wingding.ttf');
+}
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #004f8a;
+}
+div.adr a, div.tel a {
+  color: #000022;
+}
+div#hcard-Nicola-Worthington {
+  font-family: Chalkboard, "Comic Sans MS", "Brush Script MT", cursive;
+  font-size: 10pt;
+}
+div#hcard-Nicola-Worthington div#top_card {
+  -webkit-transform: rotate(-4.5deg); 
+  -moz-transform: rotate(-4.5deg);	
+  position: absolute;
+  width: 450px;
+  top: 53px;
+  left: 255px;
+}
+div#hcard-Nicola-Worthington div#top_card div {
+  float: right;
+  width: 170px;
+  padding-left: 5px;
+}
+div#hcard-Nicola-Worthington div#top_card div#main_details {
+  width: 350px;
+  float: left;
+  padding-bottom: 10px;
+}
+div#hcard-Nicola-Worthington div#bottom_card {
+  -webkit-transform: rotate(-5.5deg); 
+  -moz-transform: rotate(-5.5deg);	
+  width: 440px;
+  position: absolute;
+  top: 330px;
+  left: 290px;
+}
+div#hcard-Nicola-Worthington span.icon {
+  font-family: Wingdings, fantasy;
+}
+div#hcard-Nicola-Worthington div#top_card div#main_details div.nickname {
+  width: 100px;
+  color: #004f8a;
+  float: right;
+  text-align: right;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 22pt;
+  text-transform: uppercase;
+}
+span.country-name {
+  white-space: nowrap;
+}
